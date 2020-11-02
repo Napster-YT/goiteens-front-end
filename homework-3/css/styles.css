@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div-header {
+  width: 900px;
+  margin: 0 auto;
+  max-width: 80%;
+  height: 160px;
+  border: 2px solid crimson;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu-list {
+  text-align: center;
+  font-size: 0;
+}
