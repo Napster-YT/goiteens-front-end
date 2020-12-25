@@ -55,7 +55,7 @@ header {
   margin: 0 auto 15px;
   padding: 70px;
   font-weight: 10px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 .menu {
   display: flex;
@@ -81,7 +81,7 @@ header {
 
 main {
   margin: 0 auto;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 /* ============перший блок main=========== */
@@ -90,7 +90,7 @@ main {
 .div_main-1 {
   margin-top: 15px;
   display: flex;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 /* div class="lifestyle-1 */
@@ -149,7 +149,7 @@ main {
 .div_main-2 {
   margin-top: 43px;
   display: flex;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 /* div class="photodiary-1" */
@@ -209,7 +209,7 @@ main {
   /* margin-bottom: 53px; */
   /* З ось цим  ^   невпевнений... */
   display: flex;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 /* div class="lifestyle-11" */
