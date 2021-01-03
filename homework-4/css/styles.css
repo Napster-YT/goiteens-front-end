@@ -1,0 +1,358 @@
+/* .We_work_with {
+  font-size: 24px;
+  font-family: "KaushanScript";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 898.877px;
+  top: 175.6px;
+  z-index: 48;
+} */
+
+/* @font-face {
+} */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  max-width: 1200px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ==============HEADER============= */
+
+header {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  height: 65px;
+  /* border: 1px solid crimson; */
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(149, 225, 211);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.menu-item_link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgb(149, 225, 211);
+}
+
+.menu-item_link::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: rgb(243, 129, 129);
+  transition: 0.3s linear all;
+}
+
+.menu-item_link:hover::after {
+  width: 100%;
+}
+
+.menu-item_link:hover {
+  color: rgb(243, 129, 129);
+}
+
+/* ==============MAIN============= */
+
+.main {
+  margin-top: 108px;
+  /* border: 1px solid crimson; */
+}
+
+/* =========section 1========= */
+/* ======Amazing___Services===== */
+
+.We_work_with {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.Amazing_Services {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.Amazing_Services::after {
+  content: "";
+  display: block;
+  background-color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.service-box {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  flex-basis: 33.33%;
+  width: 400px;
+  height: 170px;
+  /* border: 1px solid crimson; */
+}
+
+.img_services {
+  /* display: inline-block; */
+  position: absolute;
+}
+
+.service-item_p {
+  padding-left: 60px;
+}
+
+.services-item_title {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.services-item_text {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+}
+
+/* =========section 2========= */
+/* ========Meet___our___team======= */
+
+.Meet___our___team {
+  /* border: 1px solid crimson; */
+}
+
+.our_team {
+  display: block;
+  text-align: center;
+  /* border: 1px solid crimson; */
+}
+
+.Who_we_are {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.Meet_our_team {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.Meet_our_team::after {
+  content: "";
+  display: block;
+  background-color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.Meet_our_team__p {
+  display: block;
+  margin-top: 38px;
+}
+
+.Meet_our_team____p {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: center;
+  /* border: 1px solid crimson; */
+}
+
+.Meet_our_team__img-block {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  /* margin: 0 auto; */
+  margin-top: 85px;
+  /* border: 1px solid crimson; */
+}
+
+.img-block__img_z {
+  margin-left: 0;
+}
+
+.img-block__img_x {
+}
+
+.img-block__img_c {
+  margin-right: 0;
+}
+
+.team_img {
+  width: 380px;
+  height: 470px;
+  /* border: 1px solid crimson; */
+}
+
+.developer_name {
+  margin-top: 22px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.his_work {
+  margin-top: 4px;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ============footer=========== */
+
+.footer {
+  margin-top: 75px;
+  height: 67px;
+  /* border: 1px solid crimson; */
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  background-color: rgb(180, 180, 180);
+  width: 1200px;
+  height: 1px;
+}
+
+/* ==========footer___p+form=========== */
+
+.footer_p_form {
+  display: flex;
+}
+
+.footer_p {
+  margin-top: 22px;
+  margin-left: 0;
+  /* border: 1px solid crimson; */
+}
+
+.footer___p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
+
+.p_span {
+  color: #f38181;
+}
+
+.footer_form {
+  width: 380px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 0;
+  /* border: 1px solid orange; */
+}
+
+.footer___form {
+  display: flex;
+}
+
+.footer___input {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(204, 204, 204);
+  line-height: 1.6;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
+  width: 230px;
+  height: 40px;
+}
+
+.footer_btn_send {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  background-color: rgb(149, 225, 211);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  width: 150px;
+  height: 40px;
+}
