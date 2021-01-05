@@ -20,8 +20,8 @@
 }
 
 body {
-  width: 1920px;
-  max-width: 1200px;
+  width: auto;
+  /* max-width: 1200px; */
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -53,12 +53,24 @@ header {
   padding-top: 25px;
   padding-bottom: 15px;
   height: 65px;
-  /* border: 1px solid crimson; */
+  border: 1px solid crimson;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid crimson;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+.logo-box {
+  margin-left: 0;
 }
 
 .logo {
@@ -70,12 +82,14 @@ header {
 }
 
 .menu {
+  margin-right: 0;
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .menu-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 60px;
 }
 
 .menu-item_link {
@@ -106,7 +120,7 @@ header {
 
 .main {
   margin-top: 108px;
-  /* border: 1px solid crimson; */
+  border: 1px solid crimson;
 }
 
 /* =========section 1========= */
@@ -114,6 +128,7 @@ header {
 
 .We_work_with {
   font-size: 24px;
+  font-weight: normal;
   font-family: "Kaushan Script", cursive;
   color: rgb(51, 51, 51);
   line-height: 1.2;
@@ -123,9 +138,9 @@ header {
 .Amazing_Services {
   margin-top: 12px;
   font-size: 30px;
-  font-family: "Montserrat";
-  color: rgb(51, 51, 51);
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
@@ -149,8 +164,9 @@ header {
 }
 
 .service-item {
-  flex-basis: 33.33%;
-  width: 400px;
+  margin-left: 30px;
+  /* flex-basis: 33.33%; */
+  width: 330px;
   height: 170px;
   /* border: 1px solid crimson; */
 }
@@ -166,7 +182,7 @@ header {
 
 .services-item_title {
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
   line-height: 1.2;
@@ -175,7 +191,7 @@ header {
 .services-item_text {
   margin-top: 10px;
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: "Montserrat", sans-serif;
   color: rgb(153, 153, 153);
   line-height: 1.6;
 }
@@ -195,6 +211,7 @@ header {
 
 .Who_we_are {
   font-size: 24px;
+  font-weight: normal;
   font-family: "Kaushan Script", cursive;
   color: rgb(51, 51, 51);
   line-height: 1.2;

@@ -1,6 +1,15 @@
-/* body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   background-color: #fff;
   font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #626262;
 }
 
 ul {
@@ -13,13 +22,26 @@ a {
 
 .container {
   max-width: 900px;
-  margin: 0;
+  margin: 0 auto;
+  border: 1px solid crimson;
+}
+
+.container-lifestyle {
+  margin-bottom: -130px;
+  overflow: hidden;
+}
+
+.header {
+  padding-top: 72px;
+  padding-bottom: 98px;
+  border: 1px solid crimson;
 }
 
 .menu {
   font-size: 0;
   text-align: center;
 }
+
 .menu_item {
   display: inline-block;
 }
@@ -30,247 +52,12 @@ a {
 
 .menu_item-link {
   font-size: 14px;
-  font-family: "Myriad Pro", sans-serif;
-  color: rgb(94, 91, 91);
   text-transform: uppercase;
   line-height: 1.714;
   text-align: center;
-}  */
-
-body {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 900px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* =================HEADER================ */
-
-header {
-  margin: 0 auto 15px;
-  padding: 70px;
-  font-weight: 10px;
-  /* border: 1px solid crimson; */
-}
-.menu {
-  display: flex;
-  justify-content: space-around;
-  text-transform: uppercase;
-  list-style: none;
-}
-
-.menu_item-link-1 {
-  color: rgb(30, 167, 247);
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.menu_item-link {
-  color: rgb(98, 98, 98);
-  text-decoration: none;
-  font-size: 14px;
-}
-
-/* =================MAIN================= */
-
-main {
-  margin: 0 auto;
-  /* border: 1px solid crimson; */
-}
-
-/* ============перший блок main=========== */
-/* div class="div_main-1" */
-
-.div_main-1 {
-  margin-top: 15px;
-  display: flex;
-  /* border: 1px solid crimson; */
-}
-
-/* div class="lifestyle-1 */
-
-.lifestyle-1 {
-  margin-right: 30px;
-  /* border: 1px solid crimson; */
-}
-
-.p_lifestyle-1 {
-  margin-top: 21px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
-}
-
-.h2_lifestyle-1 {
-  margin-bottom: 30px;
-  font-size: 30px;
   color: rgb(98, 98, 98);
 }
 
-.p_lifestyle__1 {
-  margin-bottom: 85px;
-  font-size: 17px;
-}
-
-/* div class="lifestyle-2 */
-
-.lifestyle-2 {
-  margin-left: 30px;
-  /* border: 1px solid crimson; */
-}
-
-.p_lifestyle-2 {
-  margin-top: 21px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
-}
-
-.h2_lifestyle-2 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  color: rgb(98, 98, 98);
-}
-
-.p_lifestyle__2 {
-  margin-bottom: 85px;
-  font-size: 17px;
-}
-
-/* ============другий блок main===========  */
-/* div class="div_main-2" */
-
-.div_main-2 {
-  margin-top: 43px;
-  display: flex;
-  /* border: 1px solid crimson; */
-}
-
-/* div class="photodiary-1" */
-
-.photodiary-1 {
-  margin-right: 30px;
-}
-
-.p_photodiary-1 {
-  margin-top: 21px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
-}
-
-.h2_photodiary-1 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  color: rgb(98, 98, 98);
-}
-
-.p_photodiary__1 {
-  margin-bottom: 115px;
-  font-size: 17px;
-}
-
-/* div class="photodiary-2" */
-
-.photodiary-2 {
-  margin-left: 30px;
-}
-
-.p_photodiary-2 {
-  margin-top: 21px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
-}
-
-.h2_photodiary-2 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  color: rgb(98, 98, 98);
-}
-
-.p_photodiary__2 {
-  margin-bottom: 115px;
-  font-size: 17px;
-}
-
-/* ==============третій блок main============*/
-
-/* div class="div_main-3 */
-
-.div_main-3 {
-  margin-top: 18px;
-  /* margin-bottom: 53px; */
-  /* З ось цим  ^   невпевнений... */
-  display: flex;
-  /* border: 1px solid crimson; */
-}
-
-/* div class="lifestyle-11" */
-
-.lifestyle-11 {
-  margin-right: 30px;
-}
-
-.p_lifestyle-11 {
-  margin-top: 21px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
-}
-
-.h2_lifestyle-11 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  color: rgb(98, 98, 98);
-}
-
-.p_lifestyle__11 {
-  margin-bottom: 53px;
-  font-size: 17px;
-}
-
-/* div class="lifestyle-21" */
-
-.lifestyle-21 {
-  margin-left: 30px;
-}
-
-.p_lifestyle-21 {
-  margin-top: 21px;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
-}
-
-.h2_lifestyle-21 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  color: rgb(98, 98, 98);
-}
-
-.p_lifestyle__21 {
-  margin-bottom: 53px;
-  font-size: 17px;
-}
-
-.btn-wrap {
-  text-align: center;
-  margin-top: 52px;
-  margin-bottom: 70px;
-}
-
-.more {
-  font-size: 20px;
-  color: rgb(98, 98, 98);
-  border-color: rgb(98, 98, 98);
-  width: 162px;
-  height: 58px;
-  cursor: pointer;
+.menu_item-link:hover {
+  color: #03a9f4;
 }
