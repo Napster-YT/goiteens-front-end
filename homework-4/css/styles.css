@@ -53,13 +53,13 @@ header {
   padding-top: 25px;
   padding-bottom: 15px;
   height: 65px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .navigation {
@@ -120,7 +120,7 @@ header {
 
 .main {
   margin-top: 108px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 /* =========section 1========= */
@@ -308,6 +308,7 @@ header {
 }
 
 .footer::before {
+  margin: 0 auto;
   content: "";
   display: block;
   background-color: rgb(180, 180, 180);
