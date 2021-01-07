@@ -24,7 +24,7 @@ a {
 .container {
   max-width: 900px;
   margin: 0 auto;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .container-lifestyle {
@@ -103,10 +103,10 @@ a {
 
 /* =================Перший блок main================ */
 
-.div-main_1 {
+.section-main_1 {
   display: flex;
   height: 600px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .block-Lifestyle_left {
@@ -123,11 +123,11 @@ a {
 
 /* =================Другий блок main================ */
 
-.div-main_2 {
+.section-main_2 {
   display: flex;
   height: 615px;
   margin-top: 10px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .block-Photodiary_left {
@@ -144,21 +144,21 @@ a {
 
 /* =================Третій блок main================ */
 
-.div-main_3 {
+.section-main_3 {
   display: flex;
-  height: 530px;
-  border: 1px solid crimson;
+  height: 495px;
+  /* border: 1px solid crimson; */
 }
 
 .block-Lifestyle-2_left {
   width: 420px;
-  height: 530px;
+  height: 495px;
   margin-right: 30px;
 }
 
 .block-Lifestyle-2_right {
   width: 420px;
-  height: 530px;
+  height: 495px;
   margin-left: 30px;
 }
 
@@ -166,8 +166,8 @@ a {
 
 .btn-wrap {
   text-align: center;
-  /* margin-top: 52px;
-  margin-bottom: 70px; */
+  margin-top: 52px;
+  margin-bottom: 70px;
 }
 
 .more {
