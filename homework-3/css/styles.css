@@ -5,6 +5,7 @@
 }
 
 body {
+  width: auto;
   background-color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: normal;
@@ -31,10 +32,12 @@ a {
   overflow: hidden;
 }
 
+/* ============HEADER============== */
+
 .header {
-  padding-top: 72px;
-  padding-bottom: 98px;
-  border: 1px solid crimson;
+  padding-top: 65px;
+  padding-bottom: 70px;
+  /* border: 1px solid crimson; */
 }
 
 .menu {
@@ -60,4 +63,123 @@ a {
 
 .menu_item-link:hover {
   color: #03a9f4;
+}
+
+/* ============MAIN============== */
+
+.main {
+  margin-top: 30px;
+}
+
+.img {
+  width: 420px;
+  height: 280px;
+}
+
+.signature {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: rgb(180, 173, 158);
+  line-height: 1.2;
+  margin-top: 22px;
+}
+
+.title_h2 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin-top: 16px;
+}
+
+.signature_after_the_title-h2 {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  margin-top: 28px;
+}
+
+/* =================Перший блок main================ */
+
+.div-main_1 {
+  display: flex;
+  height: 600px;
+  border: 1px solid crimson;
+}
+
+.block-Lifestyle_left {
+  width: 420px;
+  height: 600px;
+  margin-right: 30px;
+}
+
+.block-Lifestyle_right {
+  width: 420px;
+  height: 600px;
+  margin-left: 30px;
+}
+
+/* =================Другий блок main================ */
+
+.div-main_2 {
+  display: flex;
+  height: 615px;
+  margin-top: 10px;
+  border: 1px solid crimson;
+}
+
+.block-Photodiary_left {
+  width: 420px;
+  height: 615px;
+  margin-right: 30px;
+}
+
+.block-Photodiary_right {
+  width: 420px;
+  height: 615px;
+  margin-left: 30px;
+}
+
+/* =================Третій блок main================ */
+
+.div-main_3 {
+  display: flex;
+  height: 530px;
+  border: 1px solid crimson;
+}
+
+.block-Lifestyle-2_left {
+  width: 420px;
+  height: 530px;
+  margin-right: 30px;
+}
+
+.block-Lifestyle-2_right {
+  width: 420px;
+  height: 530px;
+  margin-left: 30px;
+}
+
+/* ===============Кнопка============= */
+
+.btn-wrap {
+  text-align: center;
+  /* margin-top: 52px;
+  margin-bottom: 70px; */
+}
+
+.more {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+  line-height: 58px;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  background: transparent;
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
 }
