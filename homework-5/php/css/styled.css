@@ -7,34 +7,36 @@
 body {
   font-size: 20px;
   font-family: "Kaushan Script", cursive;
-  background-color: rgb(206, 206, 94);
+  background-color: rgb(185, 185, 90);
 }
 
 .container {
   width: 100%;
   max-width: 30%;
-  margin-top: 200px;
-  border: 1px solid crimson;
+  margin-top: 270px;
+  border: 3px solid crimson;
+  border-radius: 30%;
 }
 
 .content {
+  /* margin: 0 auto; */
 }
 
 .gratitude {
   font-size: 25px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: rgb(201, 34, 34);
+  color: rgb(4, 0, 255);
   text-align: center;
 }
 
-.gratitude_p {
+/* .gratitude_p {
   font-size: 20px;
   font-family: "Kaushan Script", cursive;
   color: rgb(122, 110, 110);
   text-align: center;
   margin-top: 50px;
-}
+} */
 
 /* .gratitude_p_br {
   margin-top: 30px;
