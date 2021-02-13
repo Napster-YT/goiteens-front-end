@@ -1,0 +1,25 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  font-family: "Kaushan Script", cursive;
+}
+
+.container {
+  width: 100%;
+  max-width: 70%;
+  /* border: 1px solid crimson; */
+}
+
+.header {
+  background-color: papayawhip;
+}
+
+.h1_header {
+  color: rosybrown;
+  text-align: center;
+}
