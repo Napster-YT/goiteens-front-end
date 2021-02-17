@@ -227,27 +227,18 @@ header {
   border: 1px solid crimson;
 }
 
-.form {
-  display: inline;
+.form:not(:last-child) {
+  display: flex;
   border: 1px solid crimson;
 }
 
 ._3_inputs {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
+  /* justify-content: left; */
+  /* align-items: baseline; */
   border: 1px solid crimson;
-}
-
-.__3_inputs {
-  display: block;
-  width: 455px;
-  height: 80px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid red;
 }
 
 .input {
@@ -261,7 +252,7 @@ header {
   border: 1px solid crimson;
 }
 
-.response {
+.responsive {
   width: 455px;
   height: 210px;
 }
