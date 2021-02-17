@@ -53,13 +53,13 @@ header {
   padding-top: 25px;
   padding-bottom: 15px;
   height: 65px;
-  /* border: 1px solid crimson; */
+  border: 1px solid crimson;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  /* border: 1px solid crimson; */
+  border: 1px solid crimson;
 }
 
 .navigation {
@@ -169,7 +169,7 @@ header {
   /* flex-basis: 33.33%; */
   width: 330px;
   height: 170px;
-  /* border: 1px solid crimson; */
+  border: 1px solid crimson;
 }
 
 .img_services {
