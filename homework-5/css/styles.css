@@ -53,13 +53,13 @@ header {
   padding-top: 25px;
   padding-bottom: 15px;
   height: 65px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .navigation {
@@ -169,7 +169,7 @@ header {
   /* flex-basis: 33.33%; */
   width: 330px;
   height: 170px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .img_services {
@@ -390,9 +390,12 @@ header {
 .meet_our_team_block-display .img-container {
   position: relative;
   /* width: auto; */
-  /* height: 545px; */
+  max-height: 470px;
   overflow: hidden;
   margin-bottom: 30px;
+  transition: all 0.2s linear;
+  /* top: 0; */
+  /* left: 0; */
 }
 
 .meet_our_team_block-display .img-container > img {
@@ -470,7 +473,6 @@ header {
   top: 1192px;
   width: 13px;
   height: 26px;
-  z-index: 27;
 }
 
 .twitter {
@@ -480,7 +482,6 @@ header {
   top: 1194px;
   width: 26px;
   height: 22px;
-  z-index: 30;
 }
 
 
@@ -491,7 +492,6 @@ header {
   top: 1192px;
   width: 21px;
   height: 26px;
-  z-index: 29;
 }
 
 
@@ -503,7 +503,6 @@ header {
   top: 1192px;
   width: 26px;
   height: 26px;
-  z-index: 28;
 }
 
 
