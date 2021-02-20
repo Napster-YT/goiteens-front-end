@@ -7,7 +7,8 @@
 body {
   font-size: 20px;
   font-family: "Kaushan Script", cursive;
-  background-color: rgb(185, 185, 90);
+  /* background-color: rgb(190, 190, 106); */
+  background-color: peachpuff;
 }
 
 .container {

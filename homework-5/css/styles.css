@@ -349,7 +349,6 @@ header {
 .team_img {
   width: 380px;
   height: 470px;
-  transition: 0.3s linear all;
   /* border: 1px solid crimson; */
 }
 
@@ -380,6 +379,7 @@ header {
   /* width: 100%; */
   /* overflow: hidden; */
   /* object-fit: cover; */
+  /* transition: 77.9s linear all; */
 }
 
 .img-container:hover {
@@ -393,10 +393,13 @@ header {
   max-height: 470px;
   overflow: hidden;
   margin-bottom: 30px;
-  transition: all 0.2s linear;
+  /* transition: all 22.8s linear; */
   /* top: 0; */
   /* left: 0; */
 }
+
+/* .meet_our_team_block-display .img-container:hover {
+} */
 
 .meet_our_team_block-display .img-container > img {
   height: 100%;
