@@ -11,8 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-
     <!-- =====================HEADER===================== -->
     <header class="header">
         <div class="container">
@@ -40,8 +38,6 @@
             </nav>
         </div>
     </header>
-
-
     <!--=====================MAIN===================== -->
     <main class="main">
         <section class="main-section1">
@@ -94,10 +90,8 @@
             </div>
         </section>
     </main>
-
-
     <!-- =====================FOOTER===================== -->
-    <footer class="footer">
+     <footer class="footer">
         <div class="container">
             <div class="contact_us">
                 <h2 class="title-contact_us">Contact us</h2>
@@ -105,24 +99,23 @@
             </div>
             <div class="form_div">
                 <form action="./php/auth.html" name="" method="GET" class="form" target="_blank">
-                    <div class="_3_inputs">
-                        <input type="text" name="your Name *" required placeholder="your Name *" class="input">
-                        <input type="text" required placeholder="your e-mail *" class="input">
-                        <input type="text" placeholder="subject" class="input">
+                    <div class="_3_inputs_and_textarea">
+                        <div class="_3_inputs">
+                            <input type="text" name="your Name *" required placeholder="your Name *" class="input input_1">
+                            <input type="text" required placeholder="your e-mail *" class="input input_1">
+                            <input type="text" placeholder="subject" class="input input_1">
+                        </div>
+                        <div class="textarea">
+                            <textarea name="" id="" cols="30" rows="10" required placeholder="Your message *" class="responsive"></textarea>
+                        </div>
                     </div>
-                    <div class="div_responsive">
-                        <textarea name="" id="" cols="30" rows="10" class="responsive"></textarea>
-                    </div>
-                    <div class="btn_sent_form">
-                        <button type="submit">Send Message</button>
+                    <div class="btn-send">
+                        <button class="btn_send_message">Send Message</button>
                     </div>
                 </form>
             </div>
         </div>
-    </footer>
+    </footer>     
     <!-- =============================================================== -->
-
-
-
 </body>
 </html>

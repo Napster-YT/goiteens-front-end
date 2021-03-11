@@ -1,0 +1,37 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  background-color: rgb(140, 194, 140);
+}
+
+.container {
+  max-width: 40%;
+  /* border: 1px solid crimson; */
+}
+
+.main {
+  padding-top: 18%;
+}
+
+.div_alert {
+  border-radius: 16%;
+  border: 3px solid rgb(125, 110, 157);
+}
+
+.alert {
+  font-size: 23px;
+  font-family: "Hammersmith One", sans-serif;
+  color: paleturquoise;
+  text-align: center;
+}
+.ha {
+  font-size: 23px;
+  font-family: "Hammersmith One", sans-serif;
+  color: paleturquoise;
+  text-align: center;
+}
