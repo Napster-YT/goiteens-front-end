@@ -201,18 +201,31 @@ header {
 }
 
 .input {
+  /* display: flex; */
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: " Montserrat", sans-serif;
   color: rgb(187, 187, 187);
   font-weight: bold;
   text-transform: uppercase;
-
+  /* flex-direction: column; */
+  border-style: solid;
   border-radius: 2px;
   border-width: 1px;
-  border-style: solid;
   width: 455px;
   height: 50px;
 }
+/* .i-c-1{
+
+  width: 455px;
+  height: 50px;
+  font-size: 14px;
+  font-family: "Montserrat", serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 30px;
+} */
 
 .input_1:not(:last-child) {
   margin-bottom: 30px;
