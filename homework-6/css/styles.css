@@ -162,7 +162,6 @@ header {
   background-repeat: no-repeat;
   /* border: 1px solid crimson; */
 }
-
 .contact_us {
   width: 290px;
   height: 120px;
@@ -170,7 +169,6 @@ header {
   margin-bottom: 132px;
   /* border: 1px solid crimson; */
 }
-
 .title-contact_us {
   font-size: 38px;
   font-family: "Montserrat", sans-serif;
@@ -179,7 +177,6 @@ header {
   text-transform: uppercase;
   text-align: center;
 }
-
 .discription_of_contact_us {
   font-size: 14px;
   font-style: italic;
@@ -189,7 +186,6 @@ header {
   font-weight: normal;
   margin-top: 13px;
 }
-
 .form_div {
   display: flex;
   justify-content: space-between;
@@ -197,18 +193,14 @@ header {
   /* margin-top: 72px; */
   /* border: 1px solid crimson; */
 }
-
 .form {
 }
-
 ._3_inputs_and_textarea {
   display: flex;
 }
-
 ._3_inputs {
   flex-direction: column;
 }
-
 .input {
   font-size: 14px;
   font-family: " Montserrat", sans-serif;
@@ -222,25 +214,20 @@ header {
   padding-top: 3px;
   padding-left: 20px;
 }
-
 .form ::placeholder {
   color: rgb(187, 187, 187);
   text-transform: uppercase;
 }
-
 .input_1:not(:last-child) {
   margin-bottom: 30px;
 }
-
 .textarea {
 }
-
 .responsive {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(187, 187, 187);
   font-weight: bold;
-  /* text-transform: uppercase; */
   text-align: left;
   border-radius: 5px;
   border-width: 1px;
@@ -250,13 +237,11 @@ header {
   padding-top: 16px;
   padding-left: 20px;
 }
-
 .btn-send {
   margin-top: 24px;
   margin-right: 0;
   text-align: center;
 }
-
 .btn_send_message {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
