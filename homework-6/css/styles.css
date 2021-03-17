@@ -240,7 +240,7 @@ header {
   font-family: "Montserrat", sans-serif;
   color: rgb(187, 187, 187);
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: left;
   border-radius: 5px;
   border-width: 1px;
