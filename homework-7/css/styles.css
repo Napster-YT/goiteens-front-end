@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap");
+/* ------------------------------------------------------------------------------------------------------------ */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: auto;
+  height: auto;
+}
+.container {
+  max-width: 940px;
+  border: 1px solid coral;
+}
+/* ----------------------------------------------------header---------------------------------------------------- */
+.header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../img/header/background/background_header.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  padding-top: 45px;
+}
+.navigation {
+  display: flex;
+}
+.logo-box {
+  margin-left: 0;
+}
+.logo {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  margin-right: 0;
+}
+.menu-item {
+  list-style: none;
+}
+.menu-item_link {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+.link-1 {
+  margin-right: 22px;
+}
+.link-2 {
+  margin-right: 18px;
+  padding-left: 15px;
+}
+.cheat {
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 2px;
+  height: 25px;
+}
+.two_titles_and_btn_header {
+  padding-bottom: 235px;
+}
+.two_titles {
+  text-align: center;
+  margin-top: 142px;
+}
+.Share_your_holiday_dreams {
+  font-size: 52px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.And_find_the_perfect_partner_to_fullfill_it {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 21px;
+}
+.btn_header {
+  margin-top: 35px;
+  display: flex;
+  text-decoration: none;
+}
+.btn-header {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(255, 78, 80);
+  border-color: rgb(255, 78, 80);
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 225px;
+  height: 40px;
+}
+/* ----------------------------------------------------main---------------------------------------------------- */
+.main {
+  margin-top: 65px;
+}
+.title_main_description {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+}
+.the_persons {
+  display: flex;
+  margin-top: 28px;
+}
+.person {
+  width: 220px;
+  height: 235px;
+}
+.block_with_2_person__1 {
+  display: flex;
+  margin-left: 0;
+}
+.Bradley_Hunter {
+  text-align: center;
+  border: 1px solid coral;
+}
+.Heather_Walker {
+  margin-left: 20px;
+  text-align: center;
+  border: 1px solid coral;
+}
+
+.block_with_2_persons__2 {
+  display: flex;
+  margin-right: 0;
+}
+.Lucas_Marsha {
+  margin-right: 20px;
+  text-align: center;
+  border: 1px solid coral;
+}
+.Bradley_Hunter_girl {
+  text-align: center;
+  border: 1px solid coral;
+}
+.name_person {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin-top: 12px;
+}
+.description_about_person {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  margin-top: 14px;
+}
+.person_s__ {
+  border-color: rgb(255, 255, 255);
+  width: 38px;
+  height: 38px;
+}
+.hobby_this_person {
+}
+.hobby1 {
+  display: flex;
+  background-image: url(../img/main/icons/Ellipse_1.png);
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 354px;
+  top: 907px;
+}
+.hobby2 {
+  display: flex;
+  background-image: url(../img/main/icons/Ellipse_2.png);
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 594px;
+  top: 907px;
+}
+.hobby3 {
+  display: flex;
+  background-image: url(../img/main/icons/Ellipse_3.png);
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 833px;
+  top: 907px;
+}
+.hobby4 {
+  display: flex;
+  background-image: url(../img/main/icons/Ellipse_4.png);
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 1072px;
+  top: 907px;
+}
+/* ----------------------------------------------------footer---------------------------------------------------- */
+.footer {
+  margin-top: 35px;
+  padding-bottom: 73px;
+}
+.btn_footer {
+  text-align: center;
+}
+.btn-footer {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 78, 80);
+  border-style: solid;
+  text-align: center;
+  border-radius: 40px;
+  border-width: 2px;
+  width: 195px;
+  height: 40px;
+}
+/* 
+ */

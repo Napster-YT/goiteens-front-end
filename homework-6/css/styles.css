@@ -1,3 +1,11 @@
+@import url("https://uk.allfont.net/allfont.css?fonts=droid-serif");
+@font-face {
+  font-family: "Wisdom";
+  src: url("../fonts/Wisdom\ Script.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+/* =============================================== */
 * {
   margin: 0 auto;
   padding: 0;
@@ -31,7 +39,7 @@ header {
 
 .logo {
   font-size: 26px;
-  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "Wisdom";
   color: #ffcc00;
   text-decoration: none;
   line-height: 2.7;
@@ -50,7 +58,7 @@ header {
 .menu-item_link {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;
@@ -174,7 +182,8 @@ header {
 
 .discription_of_contact_us {
   font-size: 14px;
-  font-family: "Hammersmith One", sans-serif;
+  font-style: italic;
+  font-family: "Droid Serif", sans-serif;
   color: rgb(119, 119, 119);
   text-align: center;
   font-weight: normal;
@@ -201,31 +210,23 @@ header {
 }
 
 .input {
-  /* display: flex; */
   font-size: 14px;
   font-family: " Montserrat", sans-serif;
   color: rgb(187, 187, 187);
   font-weight: bold;
-  text-transform: uppercase;
-  /* flex-direction: column; */
   border-style: solid;
   border-radius: 2px;
   border-width: 1px;
   width: 455px;
   height: 50px;
+  padding-top: 3px;
+  padding-left: 20px;
 }
-/* .i-c-1{
 
-  width: 455px;
-  height: 50px;
-  font-size: 14px;
-  font-family: "Montserrat", serif;
+.form ::placeholder {
   color: rgb(187, 187, 187);
-  font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
-  margin-bottom: 30px;
-} */
+}
 
 .input_1:not(:last-child) {
   margin-bottom: 30px;
@@ -246,6 +247,8 @@ header {
   border-style: solid;
   width: 455px;
   height: 210px;
+  padding-top: 16px;
+  padding-left: 20px;
 }
 
 .btn-send {
