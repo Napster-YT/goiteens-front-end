@@ -83,6 +83,23 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+/* .Share_your_holiday_dreams {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.00087739777983,0,0,0.99950991603228,0,0);
+  -webkit-transform: matrix( 1.00087739777983,0,0,0.99950991603228,0,0);
+  -ms-transform: matrix( 1.00087739777983,0,0,0.99950991603228,0,0);
+  position: absolute;
+  left: 46.48px;
+  top: 222.868px;
+  z-index: 9;
+}
+ */
 .And_find_the_perfect_partner_to_fullfill_it {
   font-size: 24px;
   font-family: "Roboto", sans-serif;

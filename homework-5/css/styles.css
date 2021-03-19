@@ -347,7 +347,7 @@ header {
 .team_img {
   width: 380px;
   height: 470px;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 .team_img:hover {
