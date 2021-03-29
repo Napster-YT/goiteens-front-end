@@ -17,16 +17,24 @@ hello2();
 
 console.log('============Завдання 3===========');
 
-function mul(n = +prompt('Введіть число.'), m = +prompt('Введіть число.')) {
-    return console.log(`Добуток чисел ${n} & ${m}:`, n * m, ', їх сума:', n + m, ', а різниця:', n - m , '.');
+//  function mul(n = +prompt('Введіть число.'), m = +prompt('Введіть число.')) {
+// }
+
+function mul(n, m) {
+    return `n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m}`;
+    // return (`Добуток чисел ${n} & ${m}:`, n * m, ', їх сума:', n + m, ', а різниця:', n - m , '.');
 }
 
-mul()
+console.log(mul(4,5));
+// console.log(mul(18,2));
+// console.log(mul(7,6));
+// console.log(mul(9,58));
+
 
 console.log('============Завдання 4===========');
 
 const myNewArrowFunction = (...mes) => {
-   return console.log(mes);
+    console.log(mes);
 }
 
 myNewArrowFunction(1, 2, 3);

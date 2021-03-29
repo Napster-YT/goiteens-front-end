@@ -327,17 +327,35 @@ body {
     max-width: 280px;
   }
   .navigation {
-    display: inline-block;
+    /* display: flex; */
   }
   .logo-box {
     text-align: center;
     margin-top: 100px;
+  }
+  .link-1 {
+    margin-right: 100px;
+  }
+  .link-2 {
+    margin-right: 0;
   }
   .Share_your_holiday_dreams {
     font-size: 28px;
   }
   .And_find_the_perfect_partner_to_fullfill_it {
     font-size: 18px;
+  }
+  .the_persons {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 0; */
+  }
+  .person {
+    width: 220px;
+    height: 235px;
   }
   /*
 font-size: 14px;
