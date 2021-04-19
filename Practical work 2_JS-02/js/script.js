@@ -10,7 +10,7 @@ hello1();
 console.log('============Завдання 2===========');
 
 function hello2(name = prompt('Введіть Ваше ім"я, будь ласка.')) {
-    console.log(`Привіт, ${name}!`);
+   console.log(`Привіт, ${name}!`);
 }
 
 hello2();
@@ -46,9 +46,10 @@ console.log('============Завдання 5===========');
 // const marks = [100, 75, 81, 96];
 // const marks = [45, 63, 85, 70];
 // const marks = [77, 82, 60, 58];
+
 const marks = [93, 99, 93, 96];
 // const marks = [80];
-// const marks = prompt('Введіть свої оцінки.')
+
     //Збір аргументів 
 const myAverageScore = function (...marks) {
     let totalMarks = 0;

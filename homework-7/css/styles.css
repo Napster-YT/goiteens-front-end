@@ -140,6 +140,8 @@ body {
   margin-top: 28px;
 }
 .person {
+  /* text-align: center; */
+  align-items: center;
   width: 220px;
   height: 235px;
 }
@@ -327,11 +329,17 @@ body {
     max-width: 280px;
   }
   .navigation {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column-reverse;
   }
   .logo-box {
-    text-align: center;
     margin-top: 100px;
+    justify-content: center;
+  }
+  .logo {
+    /* display: flex; */
+    text-align: center;
+    /* width: 100%; */
   }
   .link-1 {
     margin-right: 100px;
@@ -348,14 +356,23 @@ body {
   .the_persons {
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 0;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
     /* padding: 0; */
   }
   .person {
+    /* text-align: center */
+    align-items: center;
     width: 220px;
-    height: 235px;
+    height: 234px;
+    margin: 0 auto;
+    /* padding: 0; */
+  }
+  .person:not(:first-child) {
+    margin-top: 30px;
   }
   /*
 font-size: 14px;
